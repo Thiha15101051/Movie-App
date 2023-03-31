@@ -1,0 +1,45 @@
+.header {
+  opacity: 0.92;
+  background-color: rgb(104, 102, 102);
+}
+.active {
+  text-decoration: underline;
+}
+
+.hamburger {
+  display: none;
+}
+.showMenu {
+  display: none;
+}
+@media (max-width: 725px) {
+  .active {
+    text-decoration: underline;
+  }
+  .nav {
+    display: none;
+  }
+  .hamburger {
+    display: inline;
+  }
+}
+.showMenu {
+  transition: display 0.8s ease-in-out;
+  z-index: 10;
+  display: flex;
+  top: 90px;
+  right: 85px;
+  transform: translateX(40px);
+  transition: display 0.9s ease-in-out;
+}
+.responsiveNav {
+  transition: display 0.8s ease-in-out;
+  transform: translateX(-200px);
+  display: none;
+}
+.hover:hover {
+  background-color: transparent;
+}
+.searchBtn {
+  border: none!important;
+}
