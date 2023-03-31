@@ -31,7 +31,7 @@ const Detail = () => {
   const SeasonsQty = Object(detail.seasons).length;
   return (
     <>
-      <div className="flex w-full h-[100vh]" style={image}>
+      <div className="flex w-full h-full" style={image}>
         <div className="w-1/2 h-full flex flex-col justify-end detailImgClip">
           <h1 className=" mx-5 text-white text-border text-4xl font-bold">
             Related {movie === "tv" ? "Series" : "Movies"}
