@@ -11,6 +11,7 @@ const Detail = () => {
   const [detail,setDetail]=useState({});
   console.log(fav.length)
   let image = {
+    aspectRatio:' 3 / 2',
     backgroundPosition: "",
     backgroundSize: "100%",
     backgroundRepeat: "no-repeat",
